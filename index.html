@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Binge Watcher</title>
+
+
+
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+  <link href='https://fonts.googleapis.com/css?family=Monda|Ultra' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Archivo" rel="stylesheet">
+
+</head>
+
+
+<body>
+
+  <!--Nav bar and heading -->
+  <header>
+    <div id="logo"><img src="img/logo2.png" alt="binge watcher"></div>
+  </header>
+
+  <nav id="mainnav" class="group">
+    <div id="menu">&#x2261; Menu</div>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Favorites</a></li>
+      <li><a href="#">Sign Up</a></li>
+      <li><a href="#">Login</a></li>
+    </ul>
+  </nav>
+
+
+  <div class="wrapper">
+    <div class="overlay"><img class="poster-desc" />
+      <h2 class="title-desc"></h2>
+      <p class="release-date-desc"></p>
+      <p class="desc"></p>
+    </div>
+    <h1 class="title">Search Our Titles </h1>
+    <div class="search-block">
+      <input class="search" type="text" placeholder="Type any movie title" name="movie" /><br/>
+      <div class="search-button" href="movieFinder()">Search</div>
+    </div>
+    <h2 class="no-results"></h2>
+    <div class="search-result">
+      <div class="movie-block" id="movie-block0">
+        <h2 class="title" id="title0"></h2><img class="poster" id="poster0" />
+        <p class="description description0"></p>
+        <p class="release-date" id="release-date0"></p>
+      </div>
+      <div class="movie-block" id="movie-block1">
+        <h2 class="title" id="title1"></h2><img class="poster" id="poster1" />
+        <p class="description description1"></p>
+        <p class="release-date" id="release-date1"></p>
+      </div>
+      <div class="movie-block" id="movie-block2">
+        <h2 class="title" id="title2"></h2><img class="poster" id="poster2" />
+        <p class="description description2"></p>
+        <p class="release-date" id="release-date2"></p>
+      </div>
+      <div class="movie-block" id="movie-block3">
+        <h2 class="title" id="title3"></h2><img class="poster" id="poster3" />
+        <p class="description description3"></p>
+        <p class="release-date" id="release-date3"></p>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+  <script src="js/index.js"></script>
+  <script src="js/animation.js"></script>
+
+
+
+
+</body>
+
+</html>
